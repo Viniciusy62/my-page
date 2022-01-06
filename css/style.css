@@ -6,32 +6,52 @@
 
 html, body{
 	height: 100%;
-	
+	font-family: "Montserrat";
 }
 
 .header{
 	width: 100%;
 	height: 400px;
+	background: linear-gradient(#000000, #3D0000, #950101);
 }
 
 .social-media{
-	margin: 10px auto;
-	max-width: 1218px;
+	margin: auto;
+	padding: 10px;
+	max-width: 500px;
 	display: flex;
 	justify-content: space-around;
-	
-	justify-items: center;
-	
 	
 }
 
 .social-media a{
-	color: red;
+	color: #FF0000;
 	font-size: 2em;
+	opacity: 0.6;
 }
 
 .social-media a:hover{
-	color: green;
-	font-size: 3em;
+	color: #950101;
 }
 
+.nav-menu{
+	margin: 50px auto;
+	padding: 10px;
+	word-spacing: 10px;
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+.nav-menu a{
+	text-decoration: none;
+	color: #950101;
+	
+}
+
+.logo{
+	margin: 10px auto;
+	padding: 5px;
+	text-align: center;
+}
