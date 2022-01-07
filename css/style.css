@@ -7,6 +7,7 @@
 html, body{
 	height: 100%;
 	font-family: "Montserrat";
+	background-color: #F4F4F4;
 }
 
 .header{
@@ -55,4 +56,23 @@ html, body{
 	padding: 5px;
 	display: flex;
 	justify-items: flex-start;
+}
+
+.apresentation{
+	margin: 20px auto;
+	padding: 20px;
+	max-width: 1218px;
+	text-align: center;
+
+}
+
+.apresentation h1{
+	font-size: 1.5em;
+	color: #3A3535;
+}
+
+.apresentation p{
+	margin: 45px auto;
+	font-size: 1em;
+	color: #3A3535;
 }
